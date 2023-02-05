@@ -1,0 +1,23 @@
+CSAN3	DMMO3	ENAT3	LUPA3	OPCT3	OSXB3	PETR3	PETR4	PRIO3	RECV3	RPMG3	RRRP3	UGPA3	VBBR3
+
+#### SALVANDO estatistica_mc EM EXCEL
+estat_PGB <- data.frame(estatistica_mc)
+write.xlsx(estat_PGB, "estat_PGB.xlsx")
+
+
+-- Diagnostics (option = gsadf) ------------------------------------------------------------ Monte Carlo --
+
+RRRP3:    Rejects H0 at the 10% significance level
+CSAN3:    Rejects H0 at the 5% significance level
+DMMO3:    Cannot reject H0 
+ENAT3:    Cannot reject H0 
+RPMG3:    Cannot reject H0 
+PETR3:    Cannot reject H0 
+PETR4:    Cannot reject H0 
+RECV3:    Rejects H0 at the 10% significance level
+PRIO3:    Rejects H0 at the 10% significance level
+UGPA3:    Rejects H0 at the 10% significance level
+VBBR3:    Rejects H0 at the 10% significance level
+LUPA3:    Rejects H0 at the 1% significance level
+OPCT3:    Rejects H0 at the 1% significance level
+OSXB3:    Rejects H0 at the 1% significance level
